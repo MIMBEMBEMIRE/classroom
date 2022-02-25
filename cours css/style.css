@@ -19,8 +19,20 @@ h1{
 letter-spacing: 2px;
 font-size: 2rem;
 text-shadow: 3px 1px 13px #993392;
-text-align: center;
-font-family: 'parisienne' cursive;
+text-align: center 
+}
+
+
+main{
+background-color: rgb(241, 241, 255);
+width: 85%;
+min-height: 500px;
+margin-left: 10px autos;
+padding: 10px 40px
+;
+border-radius: 10px;
+box-shadow: 0 0 0 brown;
+
 }
 /* la transformation */
 /* pour chercher la police il faut aller sur google font */
