@@ -126,7 +126,7 @@ form{
     }
     
     
-}
+
 
 
 
@@ -150,6 +150,7 @@ input[type="submit"]{
     grid-area: bt;
     cursor: pointer;
     background: chartreuse;
+    transition: 0.4s;
 
 }
 input[type="submit"]:hover{
@@ -167,6 +168,14 @@ input,textarea{
     font: size 1.1rem;
 
 }
+
+@media screen and (max-width:1000px){
+
+.contenergrid{
+    display:inline-block;
+    }
+    
+
 
     
 
