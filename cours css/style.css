@@ -38,7 +38,7 @@ box-shadow: 0 0 0 brown;
 
 }
 
-.position,.flexbox{
+.position,.flexbox,.grid{
     border: 2px solid royalblue;
     padding: 10px;
     position:relative;
@@ -74,7 +74,8 @@ bottom:5px;
 left:50%;
 transform:translateX(-50%);
 
-
+/*flexbox .help  https://webcode.tools/generators/css/border
+https://www.tabnine.com/code/javascript/functions/generate*/
 
 }
 ul{
@@ -92,6 +93,84 @@ li{
     align-items: center;
     justify-content:center;
 }
+.contenergrid{
+display:grid;
+grid-template-columns: 30% 30% 40%;
+}
+form{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "i1 i2"
+    "ta ta"
+    "bt bt";
+    }
+    
+#firstname{
+    
+        grid-area: i1;
+        
+    
+    }
+    #classname{
+        grid-area: i2;
+    
+    }
+    
+    textarea{
+        grid-area: ta;
+    }
+    input[type="submit"]{
+        grid-area: bt;
+    }
+    
+    
+}
+
+
+
+#firstname{
+
+    grid-area: i1;
+    
+
+}
+#classname{
+    grid-area: i2;
+
+}
+
+textarea{
+    grid-area: ta;
+    resize: none;
+}
+input[type="submit"]{
+
+    grid-area: bt;
+    cursor: pointer;
+    background: chartreuse;
+
+}
+input[type="submit"]:hover{
+
+   background: blue;
+   color:white;
+    
+}
+input,textarea{
+    margin:5px;
+    height: 45px;
+    border:1px solid darkblue;
+    padding:10px;
+    border-radius: 5px;
+    font: size 1.1rem;
+
+}
+
+    
+
+
 
 
 
