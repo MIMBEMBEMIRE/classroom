@@ -42,10 +42,11 @@ box-shadow: 0 0 0 brown;
     border: 2px solid royalblue;
     padding: 10px;
     position:relative;
-
+    
     
 
 }
+
 
 h2{
     margin:0;
@@ -76,7 +77,21 @@ transform:translateX(-50%);
 
 
 }
-
+ul{
+    display: flex;
+    padding:0;
+    justify-content: space-around;
+}
+li{
+    list-style-type: none;
+    font-size :0.7rem;
+    height:160px;
+    width: 160px;
+    background:turquoise;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
 
 
 
