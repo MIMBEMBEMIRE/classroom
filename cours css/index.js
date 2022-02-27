@@ -26,3 +26,27 @@ window.addEventListener("mousemove",(e)=>{
     
 
 });
+window.addEventListener("mousedown",(e)=>{
+    mouseves.style.transform ="scale(2) translate(-25%, -25%)";
+
+});
+window.addEventListener("mouseup",(e)=>{
+    mouseves.style.transform ="scale(1) translate(-50%, -50%)";
+    mouseves.style.border="2px solid teal";
+    
+    
+    
+
+});
+yell.addEventListener("mouseenter", () =>{
+    yell.style.background="rgba(0,0,0.6)";
+
+});
+yell.addEventListener("mouseout", () =>{
+    yell.style.background="pink";
+
+});
+reponses.addEventListener("mouseover",()=>{
+    reponses.style.transform="rotate(2deg)";
+
+});
