@@ -173,14 +173,16 @@ input,textarea{
     transition:0.25s ease;
     border:6px solid white;
     padding:10px;
-    background: black;
+    background: red;
     
     
 }
 p{
-    visibility: hidden;
+   
     width:240px;
     margin:10px auto 0;
+    color:blue;
+    visibility: hidden;
 }
 .yell1{
     background: red;
