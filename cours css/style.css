@@ -177,12 +177,15 @@ input,textarea{
     
     
 }
-p{
+p {
    
     width:240px;
     margin:10px auto 0;
     color:blue;
     visibility: hidden;
+    opacity:0;
+    transition:0.6s;
+    transform:translateX(-200px);
 }
 .yell1{
     background: red;
@@ -192,6 +195,25 @@ p{
   
     }
 
+    .reponses1{
+        visibility:visible;
+        opacity:1;
+        tranform: translateX(0);
+
+    }
+#mousemove{
+    height: 50px;
+    width: 50px;
+    border:2px  solid pink;
+    position:absolute;
+    border-radius: 50px;
+    transform:translate(-50% -50%);
+    transition:0.2s ease;
+    z-index:-1;
+
+    
+
+}
 
 
 
