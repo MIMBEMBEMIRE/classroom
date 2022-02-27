@@ -2,6 +2,7 @@
 
 
 body{
+
     background-color: #993392;
     background-image: url(./image.jpg);
     background-repeat: no-repeat;
@@ -9,7 +10,7 @@ body{
     background-position: center;
 
     height: 300vh;
-
+    
     
 }
 
@@ -42,7 +43,6 @@ box-shadow: 0 0 0 brown;
     border: 2px solid royalblue;
     padding: 10px;
     position:relative;
-    
     
 
 }
@@ -168,13 +168,25 @@ input,textarea{
     font: size 1.1rem;
 
 }
-
-@media screen and (max-width:1000px){
-
-.contenergrid{
-    display:inline-block;
-    }
+#col{
     
+    transition:0.25s ease;
+    border:6px solid white;
+    padding:10px;
+    background: black;
+    
+    
+}
+p{
+    visibility: hidden;
+    width:240px;
+    margin:10px auto 0;
+}
+
+
+
+
+
 
 
     
@@ -186,6 +198,3 @@ input,textarea{
 
     
    
-/* la transformation */
-/* pour chercher la police il faut aller sur google font */
-
